@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/samgladson/Thoughtworks/MockingPOCDotnet/MockingPOC/MockingPOC/MockingPOC.csproj": {}
+  },
+  "projects": {
+    "/Users/samgladson/Thoughtworks/MockingPOCDotnet/MockingPOC/MockingPOC/MockingPOC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/samgladson/Thoughtworks/MockingPOCDotnet/MockingPOC/MockingPOC/MockingPOC.csproj",
+        "projectName": "MockingPOC",
+        "projectPath": "/Users/samgladson/Thoughtworks/MockingPOCDotnet/MockingPOC/MockingPOC/MockingPOC.csproj",
+        "packagesPath": "/Users/samgladson/.nuget/packages/",
+        "outputPath": "/Users/samgladson/Thoughtworks/MockingPOCDotnet/MockingPOC/MockingPOC/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/samgladson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "ReportPortal.VSTest.TestLogger": {
+              "target": "Package",
+              "version": "[2.3.9, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.5, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.22, )"
+            },
+            "SpecFlow.Assist.Dynamic": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.22, )"
+            },
+            "WireMock.Net": {
+              "target": "Package",
+              "version": "[1.4.24, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

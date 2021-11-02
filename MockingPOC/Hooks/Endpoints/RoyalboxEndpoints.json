@@ -1,0 +1,3 @@
+{
+  "AddCompany": "/v1/events/{eventId}/company"
+}
